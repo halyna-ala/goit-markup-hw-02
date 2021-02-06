@@ -1,22 +1,33 @@
-/* :root {
---blue-logo: 2196F3;
---black-tekst: 000000;
---color-nav: 212121;
---hero-100pr: FFFFFF;
---white-footer-60pr: FFFFFF;
---grey-tekst: 757575;
- 
---backgraund: 2F303A;
---background-two: F5F4FA;
+/* body { color: #757575;
 } */
 
- .logo-web {
-     color: 2196F3;
- }
- .pige-header, 
- .logo-web {
-     color: 000000;
- }
- .btn{
-     border: none;
- }
+/* :root {
+--blue-logo: #2196F3;
+--black-tekst: #000000;
+--color-nav: #212121;
+--hero-100pr: #FFFFFF;
+--white-footer-60pr: #FFFFFF;
+--grey-tekst: #757575;
+ 
+--backgraund: #2F303A;
+--background-two: #F5F4FA;
+} */
+
+
+.logo-web {color: #2196F3;}
+
+.logo {color: #000000;}
+
+/* site nav */
+.site-nav .link {color: #212121;}
+
+.site-nav .link:hover,
+.site-nav .link:focus {color: #2196F3;}
+
+/* adres */
+.contact .item {color: #757575;}
+
+.contact .item:hover, 
+.contact .item:focus {color: #2196F3;}
+
+/* :focus */

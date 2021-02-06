@@ -116,7 +116,7 @@ small {
 }
 
 /**
-Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+Prevents 'sub' and 'sup' elements from affecting the line height in all browsers.
 */
 
 sub,
@@ -190,6 +190,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
+  
   /* 1 */
   text-transform: none;
 }
