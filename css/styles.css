@@ -1,3 +1,22 @@
-ul {
-    list-style: none;
-}
+/* :root {
+--blue-logo: 2196F3;
+--black-tekst: 000000;
+--color-nav: 212121;
+--hero-100pr: FFFFFF;
+--white-footer-60pr: FFFFFF;
+--grey-tekst: 757575;
+ 
+--backgraund: 2F303A;
+--background-two: F5F4FA;
+} */
+
+ .logo-web {
+     color: 2196F3;
+ }
+ .pige-header, 
+ .logo-web {
+     color: 000000;
+ }
+ .btn{
+     border: none;
+ }
