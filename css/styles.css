@@ -1,33 +1,54 @@
-/* body { color: #757575;
-} */
-
-/* :root {
---blue-logo: #2196F3;
---black-tekst: #000000;
---color-nav: #212121;
+:root { 
+--primary-text-color: #757575; 
+--title-text-color: #212121;  
+--akcent-color:  #2196F3;
+--logo-tekst: #000000;
 --hero-100pr: #FFFFFF;
 --white-footer-60pr: #FFFFFF;
---grey-tekst: #757575;
- 
---backgraund: #2F303A;
---background-two: #F5F4FA;
-} */
 
+ --backgraund: #2F303A;}
 
-.logo-web {color: #2196F3;}
+body { color: var(--primary-text-color);}
 
-.logo {color: #000000;}
+.visually-hidden 
+   {position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* logo */
+
+.logo-web {color: var(--akcent-color);}
+
+.logo {color: var(--logo-tekst);}
 
 /* site nav */
-.site-nav .link {color: #212121;}
+
+.site-nav .link {color: var(--title-text-color);}
 
 .site-nav .link:hover,
-.site-nav .link:focus {color: #2196F3;}
+.site-nav .link:focus {color: #var(--akcent-color);}
 
 /* adres */
-.contact .item {color: #757575;}
+
+.contact .item {color: var(--primary-text-color);}
 
 .contact .item:hover, 
-.contact .item:focus {color: #2196F3;}
+.contact .item:focus {color: var(--akcent-color);}
 
-/* :focus */
+/* hero */
+
+.hero {background: var(--backgraund);}
+
+.hero .hero-title {color: var(--hero-100pr);}
+
+/* section */
+
+.section-title,
+.section .title,
+.section .item {color: var(--title-text-color);}
+
+/* footer */
+.footer {background: var(--backgraund);}
+
+.footer .logo, 
+.adres .link {color: var(--hero-100pr);}
+
+.adres .item {color: var(--white-footer-60pr);}
