@@ -183,6 +183,7 @@ a {
   text-decoration: none;
 }
 
+
 /**
 Remove the inheritance of text transform in Edge and Firefox.
 1. Remove the inheritance of text transform in Firefox.
@@ -190,7 +191,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  
+
   /* 1 */
   text-transform: none;
 }

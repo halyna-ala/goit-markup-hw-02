@@ -1,15 +1,18 @@
 :root { 
 --primary-text-color: #757575; 
---title-text-color: #212121;  
+--title-text-
+color: #212121;  
 --akcent-color:  #2196F3;
 --logo-tekst: #000000;
 --hero-100pr: #FFFFFF;
 --white-footer-60pr: #FFFFFF;
 
- --backgraund: #2F303A;
- --primery-btn-color: #F5F4FA;}
+--backgraund: #2F303A; 
+--primery-btn-color: #F5F4FA;}
 
-body { color: var(--primary-text-color); font-family: Roboto, sans-serif; letter-spacing: 0.03em; }
+body { color: var(--primary-text-color); 
+font-family: Roboto, sans-serif; 
+letter-spacing: 0.03em; }
 
 
 .visually-hidden 
@@ -41,9 +44,9 @@ body { color: var(--primary-text-color); font-family: Roboto, sans-serif; letter
 
 /* hero */
 
-.hero {background: var(--backgraund); font-weight: 900; font-size: 44px; line-height: 1.36; text-align: center; letter-spacing: 0.06em;}
+.hero {background: var(--backgraund); }
 
-.hero .hero-title {color: var(--hero-100pr);}
+.hero .hero-title {color: var(--hero-100pr); font-weight: 900; font-size: 44px; line-height: 1.36; text-align: center; letter-spacing: 0.06em;}
 
 /* section */
 
