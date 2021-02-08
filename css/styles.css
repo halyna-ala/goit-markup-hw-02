@@ -74,10 +74,13 @@ body { color: var(--primary-text-color); font-family: Roboto, sans-serif; letter
 /* button */
 .button {color: var(--hero-100pr); background-color: var(--akcent-color); font-family: inherit; font-weight: 700; font-size: 16px; line-height: 1.87; align-items: center; text-align: center; letter-spacing: 0.06em}
 
-.btn {color: var(--title-text-color); background: var(--primery-btn-color);}
+.btn {color: var(--title-text-color); background: var(--primery-btn-color); font-family: inherit; font-weight: 500;
+    font-size: 16px; line-height: 1.62;}
 
 .btn:hover,
 .btn:focus {color: var(--hero-100pr); background: var(--akcent-color);}
 
 /* portfolio */
-.caption .title {color: var(--title-text-color);}
+.caption .title {color: var(--title-text-color); font-size: 18px; line-height: 2; letter-spacing: 0.06em;}
+
+.caption .list {font-weight: 400; font-size: 16px; line-height: 1.87;}
